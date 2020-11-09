@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Goldman', cursive;
+    background-color: #011627;
+    color: #41ead4;
+}
+
+.title > h1{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 125px;
+    padding: 50px 15px;
+    font-size: 125px;
+    text-shadow: 0 0 10px #41ead4;
+}
+
+.clock{
+    font-family: 'Orbitron', sans-serif;
+    border: 3px solid #41ead4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #41ead4;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 0 25px;
+    font-size: 125px;
+    text-align: center;
+    text-shadow: 0 0 10px #41ead4;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+    color: #41ead4;
+}
+
+footer > h2{
+    margin: 15px 0;
+}
+
+footer > p{
+    font-weight: lighter;
+}
